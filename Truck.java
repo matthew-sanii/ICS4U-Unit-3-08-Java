@@ -74,6 +74,11 @@ public class Truck extends Vehicle {
     truckColor = newColor;
   }
 
+  /**
+  * The getWheels method.
+  *
+  * @return wheels.
+  */
   public int getWheels() {
     int result = super.getWheels();
     return result;

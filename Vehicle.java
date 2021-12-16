@@ -62,6 +62,11 @@ public class Vehicle {
     return speed;
   }
 
+  /**
+  * The getWheels method.
+  *
+  * @return wheels
+  */
   public int getWheels() {
     return wheels;
   }

@@ -57,6 +57,11 @@ public class Bike extends Vehicle {
     return cadence;
   }
 
+  /**
+  * The getWheels method.
+  *
+  * @return wheels.
+  */
   public int getWheels() {
     int result = super.getWheels();
     result = result / 2;

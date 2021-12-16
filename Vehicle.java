@@ -10,7 +10,10 @@ public class Vehicle {
   */
   private String color;
 
-  private int wheels = 4;
+  /**
+  * The number of wheels.
+  */
+  private int wheels;
 
   /**
   * The max speed of the car.
@@ -27,6 +30,7 @@ public class Vehicle {
   */
   public Vehicle() {
     color = "red";
+    wheels = 4;
   }
 
   /**
